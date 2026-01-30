@@ -10,7 +10,6 @@ body {
     color: #222;
 }
 
-/* NAVBAR */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -32,7 +31,6 @@ body {
     cursor: pointer;
 }
 
-/* PRODUCT */
 .product {
     display: flex;
     padding: 60px;
@@ -65,7 +63,6 @@ body {
     border: none;
 }
 
-/* BEST SELLERS */
 .best-sellers {
     padding: 60px;
     background: #f7f7f7;
@@ -88,7 +85,6 @@ body {
     width: 100%;
 }
 
-/* WHY */
 .why {
     padding: 60px;
 }
@@ -127,7 +123,6 @@ body {
     color: #6f42c1; /* purple */
 }
 
-/* NEWSLETTER */
 newsletter-content {
     display: flex;
     align-items: center;
@@ -149,7 +144,6 @@ newsletter-content {
     width: 250px;
 }
 
-/* FOOTER */
 footer {
     padding: 20px;
     text-align: center;
@@ -169,3 +163,4 @@ footer {
     border: 1px solid #ddd;
     cursor: pointer;
 }
+
