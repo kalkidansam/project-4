@@ -123,7 +123,7 @@ body {
     color: #6f42c1; /* purple */
 }
 
-newsletter-content {
+.newsletter-content {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -163,4 +163,29 @@ footer {
     border: 1px solid #ddd;
     cursor: pointer;
 }
+.actions{
+  display:flex;
+  gap:12px;
+  margin-top:20px;
+  flex-wrap:wrap;
+}
+
+.cart-btn{
+  padding:12px 20px;
+  background:black;
+  color:white;
+  border:none;
+  cursor:pointer;
+}
+
+.cart-btn:active{
+  transform:scale(0.98);
+}
+
+.cart-msg{
+  margin-top:10px;
+  font-size:14px;
+  color:#28a745;
+}
+
 
